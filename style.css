@@ -1,0 +1,102 @@
+html {
+    font-family: Open Sans, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BB8FCE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.titulos {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #BB8FCE;
+}
+
+.titulos h1 {
+    background-color: #BB8FCE;
+    color: #fff;
+    padding: 0.25em;
+    letter-spacing: 0.2em;
+    font-family: 'Crafty Girls', cursive;
+    border-radius: 10px;
+
+}
+
+.titulos h1:hover {
+    background-color: #fff;
+    color: #BB8FCE;
+    transition: all 0.25s;
+
+}
+
+.titulos h3 {
+    font-weight: 500;
+}
+
+.quadroGatinhos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.quadroGatinhos td,
+.quadroGatinhos th {
+    border: 1px solid #BB8FCE;
+    padding: 0.3em;
+}
+
+.quadroGatinhos th:hover {
+    background-color: #BB8FCE;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    opacity: 80%;
+    transition: all 0.2s;
+}
